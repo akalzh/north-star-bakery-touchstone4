@@ -6,7 +6,7 @@ This repository contains the Touchstone 4 continuation of the North Star Bakery 
 
 - Dynamic product-category filtering
 - Saved favourite product
-- `localStorage` persistence for filter, favourite, and contact name
+- localstorage persistence for filter, favourite, and contact name
 - JavaScript form validation with field-level feedback
 - Multiple functions and arrays/objects for code organisation
 - Responsive layout and preserved site navigation
