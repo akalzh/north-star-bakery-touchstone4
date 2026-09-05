@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact North Star Bakery and request a pre-order.">
+  <title>North Star Bakery | Contact &amp; Pre-Orders</title>
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><img src="bakery-logo.png" alt="North Star Bakery logo with a loaf of bread"><span class="brand-text"><h1>North Star Bakery</h1><p>Handmade with care</p></span></a><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html" aria-current="page">Contact &amp; Pre-Orders</a></li></ul></nav></div></header>
+<main><section class="section section-accent"><p class="eyebrow">Let's plan your order</p><h2>Contact &amp; Pre-Orders</h2><p>Use this form to ask a general question or request a pre-order. We will confirm availability and pickup details.</p>
+<form id="contact-form" action="#" method="post" novalidate>
+<fieldset><legend>Your contact details</legend><p><label for="name">Name:</label><input type="text" id="name" name="name" required minlength="2" maxlength="60" autocomplete="name" aria-describedby="name-error"><span class="field-error" id="name-error" role="alert" hidden></span></p><p><label for="email">Email:</label><input type="email" id="email" name="email" required autocomplete="email" aria-describedby="email-error"><span class="field-error" id="email-error" role="alert" hidden></span></p></fieldset>
+<fieldset><legend>Request details</legend><p><label for="pickup-date">Pickup date:</label><input type="date" id="pickup-date" name="pickup-date" required aria-describedby="pickup-date-error"><span class="field-error" id="pickup-date-error" role="alert" hidden></span></p><p><label for="request-type">Request type:</label><select id="request-type" name="request-type" required aria-describedby="request-type-error"><option value="">Please choose one</option><option value="pre-order">Pre-order</option><option value="general-question">General question</option><option value="event-order">Event order</option></select><span class="field-error" id="request-type-error" role="alert" hidden></span></p><p><label for="item-details">Item details:</label><textarea id="item-details" name="item-details" rows="5" required minlength="5" aria-describedby="item-details-error"></textarea><span class="field-error" id="item-details-error" role="alert" hidden></span></p><p><label for="allergy-notes">Allergy notes (if applicable):</label><textarea id="allergy-notes" name="allergy-notes" rows="4"></textarea></p></fieldset>
+<p id="form-message" class="form-message" aria-live="polite"></p><button class="button" type="submit">Send Inquiry</button>
+</form></section><section class="section"><h2>Visit us</h2><address>12 Star Lane<br>North Star Neighbourhood<br><br>Monday-Friday: 7:00 a.m.-5:30 p.m.<br>Saturday: 8:00 a.m.-4:00 p.m.<br>Sunday: Closed</address></section></main><footer class="site-footer"><p>&copy; 2026 North Star Bakery. Handmade with care.</p></footer>
+</body></html>
